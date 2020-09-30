@@ -161,4 +161,4 @@ leaflet(data= county_dta) %>% addTiles() %>%
 addPolygons(data = statesGIS,fill = FALSE,color="yellow",weight = 1) %>%
   addLegend(pal = pal,values = ~county_dta$PctDem2016, opacity = 0.7, title = sLegendTitle,position = "bottomright") 
 ```
-
+small change
